@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06176887b44c6ed4693a911a4b2f33cf, type: 3}
+  m_Name: Medium
+  m_EditorClassIdentifier: 
+  spawnerSettings:
+    enemiesAmountMin: 25
+    enemiesAmountMax: 35
+    enemiesSpawnrateMin: 0.9
+    enemiesSpawnrateMax: 1.1
+  enemiesSettings:
+    botPrefab: {fileID: 7553584918150694757, guid: 7d7070ed92c926c4e92ebf19dfea8414, type: 3}
+    enemiesSpeedMin: 1.9
+    enemiesSpeedMax: 2.1
+    enemiesHealth: 2
+  playerSettings:
+    playerHealth: 10
+    playerSpeed: 5
+    playerShootDistance: 3
+    playerShootCooldown: 0.5
+  bulletSettings:
+    bulletPrefab: {fileID: 3882092930894296795, guid: a174eb03c7e8ddf45b096d4a69355a29, type: 3}
+    playerShootDamage: 1
+    playerShootSpeed: 5
