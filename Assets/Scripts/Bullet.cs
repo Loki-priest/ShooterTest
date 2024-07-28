@@ -48,8 +48,6 @@ public class Bullet : MonoBehaviour
         }
 
         gameObject.SetActive(false);
-
-        Debug.Log("trig");
     }
 
 
